@@ -3,11 +3,18 @@ import './App.css';
 
 let postImage = 'https://bit.ly/2OpuL2i';
 
+//or we can use arrays and props!
+let postImages = [
+  'https://bit.ly/2OpuL2i',
+  'https://bit.ly/2OuzOyA'
+];
+
+
 function App() {
   return (
     <div>
-      <Profile postImage='https://bit.ly/2OpuL2i' postContent='chilling on this lake' />
-      <Profile postImage='https://bit.ly/2OuzOyA' postContent='hitting the gym' />
+      <Profile postImage={postImages[0]} postContent='chilling on this lake' />
+      <Profile postImage={postImages[1]} postContent='hitting the gym' />
     </div>
   );
 }
