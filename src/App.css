@@ -5,12 +5,8 @@
 body {
   background: rgb(40, 144, 255);
   display: flex;
-
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  overflow: hidden;
-  transition: 1s ease-in;
 }
 
 .profileCard {
