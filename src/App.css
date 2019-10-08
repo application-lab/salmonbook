@@ -1,22 +1,86 @@
-.App {
-  text-align: center;
-}
+/*  We are using CSS Flexbox to arrange our elements on the page. 
+    Read more about it here: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/ 
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background: rgb(40, 144, 255);
   display: flex;
-  flex-direction: column;
-  align-items: center;
+
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  transition: 1s ease-in;
+}
+
+.profileCard {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border: 2px solid white;
+    border-radius: 3px;
+    width: 30vw;
+    margin-bottom: 15px;
+}
+
+.profileImage {
+  background-image: url('https://us.123rf.com/450wm/alexraths/alexraths1311/alexraths131100069/23939590-rainbow-trout-isolated-on-a-white-background.jpg?ver=6');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 6em; /* em is relative to the font size */
+}
+
+.profileHeader {
+  padding-top: 5px;
+  border-top: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileHeader h1 {
+  margin-top: 5em;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+.profileHeader p {
+  font-size: .5em;
+  margin: 0;
+  padding: 0;
+}
+
+.profileHeader .likes {
+  font-size: .6em;
+  color: salmon;
+  margin: 0;
+  padding: 0;
+}
+
+.profileDescription {
+  font-size: .9em;
+}
+
+.likeButton {
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
+  background-color: darkblue;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.likeButton:hover {
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
+  background-color: lightblue; /* Green */
+  color: black;
 }
