@@ -12,17 +12,17 @@ body {
 }
 
 .profileCard {
-    background: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 15px;
-    border: 2px solid white;
-    border-radius: 3px;
-    width: 30vw;
-    margin-bottom: 15px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  border: 2px solid white;
+  border-radius: 3px;
+  width: 300px;
+  margin-bottom: 15px;
 }
 
 .profileImage {
