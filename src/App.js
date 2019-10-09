@@ -1,29 +1,34 @@
 import React from 'react';
 import './App.css';
 
-let postImage = 'https://bit.ly/2OpuL2i'; //1
+// let postImage = 'https://bit.ly/2OpuL2i'; //1
 
 //or we can use arrays and props! //2
-let postImages = [
-  'https://bit.ly/2OpuL2i',
-  'https://bit.ly/2OuzOyA'
-];
+// let postImages = [
+//   'https://bit.ly/2OpuL2i',
+//   'https://bit.ly/2OuzOyA'
+// ];
 
 //our you could have one single array of objects...
 let posts = [
   {
     postImage: 'https://bit.ly/2OpuL2i',
     postContent: 'chilling on this lake',
-    
-  }
+    likes: 1,
+  },
+  {
+    postImage: 'https://bit.ly/2OuzOyA',
+    postContent: 'hitting the gym',
+    likes: 5,
+  },
 ]
 
 
 function App() {
   return (
     <div>
-      <Profile postImage={postImages[0]} postContent='chilling on this lake' />
-      <Profile postImage={postImages[1]} postContent='hitting the gym' />
+      <Profile postImage={posts[0].postImage} postContent={posts[0].postContent} />
+      <Profile postImage={posts[1].postImage} postContent={posts[1].postContent} />
     </div>
   );
 }
