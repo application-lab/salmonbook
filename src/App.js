@@ -1,13 +1,22 @@
 import React from 'react';
 import './App.css';
 
-let postImage = 'https://bit.ly/2OpuL2i';
+let postImage = 'https://bit.ly/2OpuL2i'; //1
 
-//or we can use arrays and props!
+//or we can use arrays and props! //2
 let postImages = [
   'https://bit.ly/2OpuL2i',
   'https://bit.ly/2OuzOyA'
 ];
+
+//our you could have one single array of objects...
+let posts = [
+  {
+    postImage: 'https://bit.ly/2OpuL2i',
+    postContent: 'chilling on this lake',
+    
+  }
+]
 
 
 function App() {
