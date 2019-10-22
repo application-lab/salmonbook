@@ -44,7 +44,7 @@ function Profile(props) {
           <h1>Sam</h1>
           <p>Columbia River, OR</p>
       </div>
-      <div className="profileDescription">
+      <div className="post">
         <img src={props.postImage} alt="a lake" />
       </div>
     </div>

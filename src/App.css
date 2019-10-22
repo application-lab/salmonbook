@@ -54,38 +54,13 @@ body {
   padding: 0;
 }
 
-.profileHeader .likes {
-  font-size: .6em;
-  color: salmon;
-  margin: 0;
-  padding: 0;
-}
-
-.profileDescription {
+.post {
   font-size: .9em;
 }
 
-.profileDescription img {
+.post img {
   margin-top: 10px;
   text-align: center;
   width: 100%;
 
-}
-
-.likeButton {
-  outline: none;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1em;
-  background-color: darkblue;
-  color: white;
-}
-
-.likeButton:hover {
-  outline: none;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1em;
-  background-color: lightblue; /* Green */
-  color: black;
 }
