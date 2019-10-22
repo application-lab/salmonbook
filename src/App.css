@@ -3,21 +3,28 @@
 */ 
 
 body {
-  background: rgb(40, 144, 255);
+  font-family: 'Comic Sans MS', serif;
+  background: url('https://i.imgur.com/ZJfV0bk.jpg');
+  background-size: 100px 100px;
+  cursor: url('salmon.png'), auto;
+}
+
+.App {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.headerImage {
+  width: 600px;
+}
+
 .profileCard {
-  background: white;
+  background: #000;
+  color: #fff;
   flex-direction: column;
-  justify-content: space-evenly;
-  margin-top: 25px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 15px;
+  justify-content: center;
   border: 2px solid white;
   border-radius: 3px;
   width: 300px;
@@ -33,8 +40,9 @@ body {
 }
 
 .profileHeader {
+  
   padding-top: 5px;
-  border-top: 2px solid black;
+  border-top: 2px solid #fff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -42,25 +50,25 @@ body {
 }
 
 .profileHeader h1 {
+  color: #E91E63;
   margin-top: 5em;
-  font-size: 1em;
+  font-size: 2em;
   margin: 0;
   padding: 0;
 }
 
 .profileHeader p {
-  font-size: .5em;
+  font-size: .8em;
   margin: 0;
   padding: 0;
 }
 
-.post {
+.profile {
   font-size: .9em;
 }
 
-.post img {
+.profileDescription img {
   margin-top: 10px;
   text-align: center;
   width: 100%;
-
 }

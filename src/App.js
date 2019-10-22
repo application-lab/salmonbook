@@ -24,7 +24,8 @@ let postImages = [
 */
 function App() {
   return (
-    <div>
+    <div className="App">
+      <img className="headerImage" src="https://i.imgur.com/KwHPP8h.gif"></img>
       <Profile postImage={postImages[0]} postContent='chilling on this lake' />
       <Profile postImage={postImages[1]} postContent='hitting the gym' />
     </div>
