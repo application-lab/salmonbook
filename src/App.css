@@ -4,9 +4,9 @@
 
 body {
   font-family: 'Comic Sans MS', serif;
-  background: url('https://i.imgur.com/cF9MHad.gif') 52% top / 500px 100px no-repeat, url('https://i.imgur.com/ZJfV0bk.jpg') right bottom / 100px 100px repeat;
-  cursor: url('salmon.png'), auto;
-  margin: 150px 0px;
+  background: url('https://i.imgur.com/cF9MHad.gif') 52% top / 500px 100px no-repeat, url('https://i.imgur.com/ZJfV0bkt.jpg') right bottom / 100px 100px repeat;
+  cursor: url('https://i.imgur.com/cZEStAp.png'), auto;
+  padding: 150px 0px;
 }
 
 .App {
